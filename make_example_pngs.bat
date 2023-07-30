@@ -1,3 +1,5 @@
+#!/bin/sh
+
 set "color=--imgsize=720,720 --colorscheme DeepOcean --projection ortho"
 set "rows=-D num_rows=4 -D num_cols=8"
 openscad -o Photos/1.png -D "part_type =\"normal\"" -D "part=\"holder\""  -D num_rows=2 -D num_cols=2 %color% hex_cell.scad

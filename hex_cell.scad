@@ -20,8 +20,8 @@ cell_height = 65;	// Cell height default = 65 for 18650s
 wall = 1.2;       // Wall thickness around a single cell. Make as a multiple of the nozzle diameter. Spacing between cells is twice this amount. default = 1.2
 					// If using bought injection molded hexes and printing out the boxes, take the distance between the centers of 2 cells and divide by two for the wall thickness (((((pitch - diameter)/2). Add space for the protuding interlocking tabs in the cap or box clearances.
 
-num_rows = 4;
-num_cols = 8;
+num_rows = 3;
+num_cols = 3;
 
 holder_height = 10; // Height of cell holder default = 10 (not including slot_height)
 slot_height = 3;  // Height of all slots default = 3 mm (set to 0 for no slots but that allows you to print without support)
